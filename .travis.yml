@@ -1,0 +1,21 @@
+sudo: required
+
+language: csharp
+solution: api-testing-boilerplate.sln
+mono: none
+dotnet: 2.1.300
+
+notifications:
+  email:
+    on_success: never
+    on_failure: always
+
+services:
+  - docker
+  
+install:
+  - docker-compose up -d --build
+  
+script:
+  - dotnet build
+  - find . -name '*.csproj' -type f -print | grep -i -e '.*tests.*' | while read line ; do dotnet test "$line"; done

@@ -1,4 +1,6 @@
 # api-testing-boilerplate
+[![Build Status](https://travis-ci.org/moretonb/api-testing-boilerplate.svg?branch=master)](https://travis-ci.org/moretonb/api-testing-boilerplate)
+
 To build/run api + dependencies:
 ```bash
 docker-compose up -d --build
