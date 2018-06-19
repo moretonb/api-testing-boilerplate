@@ -12,7 +12,7 @@ namespace Testing.Boilerplate.Api.Controllers
         [MetricName("respondwithcode")]
         public ActionResult Post([FromBody] RespondWithCodeRequest request)
         {
-            return StatusCode(request.ResponseCode);
+            return StatusCode(request.ResponseCode, new { Name = "Badger" });
         }
     }
 }

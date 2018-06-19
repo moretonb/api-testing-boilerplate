@@ -5,6 +5,8 @@ VisualStudioVersion = 15.0.27130.2026
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Testing.Boilerplate.Api", "Testing.Boilerplate.Api\Testing.Boilerplate.Api.csproj", "{6FC8544B-2A40-4C71-AFC7-BCC5492493DF}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Testing.Boilerplate.AcceptanceTests", "Testing.Boilerplate.AcceptanceTests\Testing.Boilerplate.AcceptanceTests.csproj", "{8F335E48-02E1-4593-9464-229D3EB23ED8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{6FC8544B-2A40-4C71-AFC7-BCC5492493DF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6FC8544B-2A40-4C71-AFC7-BCC5492493DF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6FC8544B-2A40-4C71-AFC7-BCC5492493DF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8F335E48-02E1-4593-9464-229D3EB23ED8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8F335E48-02E1-4593-9464-229D3EB23ED8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8F335E48-02E1-4593-9464-229D3EB23ED8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8F335E48-02E1-4593-9464-229D3EB23ED8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
