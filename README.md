@@ -1,6 +1,20 @@
 # api-testing-boilerplate
 [![Build Status](https://travis-ci.org/moretonb/api-testing-boilerplate.svg?branch=master)](https://travis-ci.org/moretonb/api-testing-boilerplate)
 
+Chocolatey dependencies (installation assumptions)
+--------------------------------------------------
+choco install git (you probably already have this if you are here)
+
+choco install vscode (or whatever your favourite IDE is)
+
+choco install dotnetcore-sdk
+
+choco install docker-for-windows
+
+choco install docker-compose
+
+Basic build run and use
+-----------------------
 To build/run api + dependencies: ```docker-compose up -d --build```
 
 To spin down api + dependencies: ```docker-compose down```
