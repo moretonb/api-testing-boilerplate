@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27130.2026
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Testing.Boilerplate.Api", "Testing.Boilerplate.Api\Testing.Boilerplate.Api.csproj", "{6FC8544B-2A40-4C71-AFC7-BCC5492493DF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Testing.Api", "Testing.Api\Testing.Api.csproj", "{6FC8544B-2A40-4C71-AFC7-BCC5492493DF}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Testing.Boilerplate.AcceptanceTests", "Testing.Boilerplate.AcceptanceTests\Testing.Boilerplate.AcceptanceTests.csproj", "{8F335E48-02E1-4593-9464-229D3EB23ED8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Testing.Api.AcceptanceTests", "Testing.Api.AcceptanceTests\Testing.Api.AcceptanceTests.csproj", "{8F335E48-02E1-4593-9464-229D3EB23ED8}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

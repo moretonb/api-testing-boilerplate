@@ -1,7 +1,7 @@
 ﻿using System;
 using Microsoft.AspNetCore.Mvc.Filters;
 
-namespace Testing.Boilerplate.Api.Attributes
+namespace Testing.Api.Attributes
 {
     [AttributeUsage(AttributeTargets.Method)]
     public class MetricNameAttribute : ActionFilterAttribute

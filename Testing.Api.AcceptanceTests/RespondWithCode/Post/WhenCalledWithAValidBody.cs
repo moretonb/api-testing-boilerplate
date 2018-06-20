@@ -6,8 +6,9 @@ using Newtonsoft.Json;
 using Newtonsoft.Json.Linq;
 using NUnit.Framework;
 
-namespace Testing.Boilerplate.AcceptanceTests.Components.RespondWithCode.Post
+namespace Testing.Api.AcceptanceTests.RespondWithCode.Post
 {
+    [MetricAction]
     [TestFixture(200)]
     [TestFixture(404)]
     [TestFixture(500)]
@@ -22,7 +23,7 @@ namespace Testing.Boilerplate.AcceptanceTests.Components.RespondWithCode.Post
             _statusCode = statusCode;
         }
 
-        [SetUp]
+        [OneTimeSetUp]
         public async Task Setup()
         {
             var requestBody = new {ResponseCode = _statusCode };

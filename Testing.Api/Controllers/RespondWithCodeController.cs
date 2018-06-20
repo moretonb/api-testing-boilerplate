@@ -1,8 +1,8 @@
 ﻿using Microsoft.AspNetCore.Mvc;
-using Testing.Boilerplate.Api.Attributes;
-using Testing.Boilerplate.Api.Models;
+using Testing.Api.Attributes;
+using Testing.Api.Models;
 
-namespace Testing.Boilerplate.Api.Controllers
+namespace Testing.Api.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]

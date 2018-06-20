@@ -6,7 +6,7 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 
-namespace Testing.Boilerplate.Api
+namespace Testing.Api
 {
     public class Startup
     {

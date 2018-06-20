@@ -1,7 +1,7 @@
 ﻿using Microsoft.AspNetCore;
 using Microsoft.AspNetCore.Hosting;
 
-namespace Testing.Boilerplate.Api
+namespace Testing.Api
 {
     public class Program
     {

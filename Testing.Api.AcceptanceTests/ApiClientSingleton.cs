@@ -1,7 +1,7 @@
 using System;
 using System.Net.Http;
 
-namespace Testing.Boilerplate.AcceptanceTests
+namespace Testing.Api.AcceptanceTests
 {
     public sealed class ApiClientSingleton
     {

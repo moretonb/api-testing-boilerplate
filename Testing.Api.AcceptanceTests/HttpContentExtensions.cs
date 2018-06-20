@@ -2,7 +2,7 @@ using System.Net.Http;
 using System.Threading.Tasks;
 using Newtonsoft.Json.Linq;
 
-namespace Testing.Boilerplate.AcceptanceTests
+namespace Testing.Api.AcceptanceTests
 {
     public static class HttpContentExtensions
     {

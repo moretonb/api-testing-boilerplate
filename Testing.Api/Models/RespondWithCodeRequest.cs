@@ -1,4 +1,4 @@
-﻿namespace Testing.Boilerplate.Api.Models
+﻿namespace Testing.Api.Models
 {
     public class RespondWithCodeRequest
     {
